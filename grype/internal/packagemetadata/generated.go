@@ -2,7 +2,7 @@
 
 package packagemetadata
 
-import "github.com/anchore/grype/grype/pkg"
+import "github.com/stefanb/grype/grype/pkg"
 
 // AllTypes returns a list of all pkg metadata types that grype supports (that are represented in the pkg.Package.Metadata field).
 func AllTypes() []any {

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/vulnerability"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 // Matcher is the interface to implement to provide top-level package-to-match

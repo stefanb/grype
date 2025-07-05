@@ -8,7 +8,7 @@ import (
 	"gorm.io/gorm/logger"
 
 	anchoreLogger "github.com/anchore/go-logger"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/internal/log"
 )
 
 // logAdapter is meant to adapt the gorm logger interface (see https://github.com/go-gorm/gorm/blob/v1.25.12/logger/logger.go)

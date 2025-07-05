@@ -3,8 +3,8 @@ package version
 import (
 	"strings"
 
-	"github.com/anchore/grype/grype/pkg"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/pkg"
 )
 
 const (

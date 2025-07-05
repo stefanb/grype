@@ -9,8 +9,8 @@ import (
 	"github.com/gkampitakis/go-snaps/snaps"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/grype/grype/presenter/explain"
-	"github.com/anchore/grype/grype/presenter/models"
+	"github.com/stefanb/grype/grype/presenter/explain"
+	"github.com/stefanb/grype/grype/presenter/models"
 )
 
 func TestExplainSnapshot(t *testing.T) {

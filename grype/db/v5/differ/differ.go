@@ -13,11 +13,11 @@ import (
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/go-progress"
 
-	v5 "github.com/anchore/grype/grype/db/v5"
-	legacyDistribution "github.com/anchore/grype/grype/db/v5/distribution"
-	"github.com/anchore/grype/grype/event"
-	"github.com/anchore/grype/internal/bus"
-	"github.com/anchore/grype/internal/log"
+	v5 "github.com/stefanb/grype/grype/db/v5"
+	legacyDistribution "github.com/stefanb/grype/grype/db/v5/distribution"
+	"github.com/stefanb/grype/grype/event"
+	"github.com/stefanb/grype/internal/bus"
+	"github.com/stefanb/grype/internal/log"
 )
 
 type Differ struct {

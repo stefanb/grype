@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/version"
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/version"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/internal/log"
 )
 
 // Match is a single item for the JSON array reported

@@ -11,8 +11,8 @@ import (
 	"github.com/wagoodman/go-progress"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/grype/internal/stringutil"
 	"github.com/anchore/stereoscope/pkg/file"
+	"github.com/stefanb/grype/internal/stringutil"
 )
 
 var (

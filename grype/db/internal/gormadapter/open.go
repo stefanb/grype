@@ -10,7 +10,7 @@ import (
 	"github.com/glebarez/sqlite"
 	"gorm.io/gorm"
 
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/internal/log"
 )
 
 var commonStatements = []string{

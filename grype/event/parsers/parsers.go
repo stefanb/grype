@@ -6,8 +6,8 @@ import (
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/go-progress"
 
-	"github.com/anchore/grype/grype/event"
-	"github.com/anchore/grype/grype/event/monitor"
+	"github.com/stefanb/grype/grype/event"
+	"github.com/stefanb/grype/grype/event/monitor"
 )
 
 type ErrBadPayload struct {

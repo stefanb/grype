@@ -6,7 +6,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	grypePkg "github.com/anchore/grype/grype/pkg"
+	grypePkg "github.com/stefanb/grype/grype/pkg"
 )
 
 func TestJavaResolver_Normalize(t *testing.T) {

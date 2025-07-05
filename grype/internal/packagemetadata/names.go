@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/anchore/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/pkg"
 )
 
 // jsonNameFromType is a map of all known package metadata types to their current JSON name and all previously known aliases.

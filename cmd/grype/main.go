@@ -4,8 +4,8 @@ import (
 	_ "github.com/glebarez/sqlite"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/grype/cmd/grype/cli"
-	"github.com/anchore/grype/cmd/grype/internal"
+	"github.com/stefanb/grype/cmd/grype/cli"
+	"github.com/stefanb/grype/cmd/grype/internal"
 )
 
 // applicationName is the non-capitalized name of the application (do not change this)

@@ -6,10 +6,10 @@ import (
 	"github.com/CycloneDX/cyclonedx-go"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/grype/grype/presenter/models"
 	"github.com/anchore/syft/syft/format/common/cyclonedxhelpers"
 	"github.com/anchore/syft/syft/sbom"
 	"github.com/anchore/syft/syft/source"
+	"github.com/stefanb/grype/grype/presenter/models"
 )
 
 // Presenter writes a CycloneDX report from the given Matches and Scope contents

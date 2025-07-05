@@ -8,16 +8,16 @@ import (
 	"github.com/scylladb/go-set/strset"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/grype/grype"
-	"github.com/anchore/grype/grype/db/v6/distribution"
-	"github.com/anchore/grype/grype/db/v6/installation"
-	"github.com/anchore/grype/internal/log"
 	"github.com/anchore/syft/syft/format/spdxjson"
 	"github.com/anchore/syft/syft/format/spdxtagvalue"
 	"github.com/anchore/syft/syft/format/syftjson"
 	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/anchore/syft/syft/sbom"
 	"github.com/anchore/syft/syft/source"
+	"github.com/stefanb/grype/grype"
+	"github.com/stefanb/grype/grype/db/v6/distribution"
+	"github.com/stefanb/grype/grype/db/v6/installation"
+	"github.com/stefanb/grype/internal/log"
 )
 
 func getLatestURL() string {
@@ -78,7 +78,7 @@ func TestCompareSBOMInputToLibResults(t *testing.T) {
 		string(syftPkg.GithubActionWorkflowPkg),
 		string(syftPkg.GraalVMNativeImagePkg),
 		string(syftPkg.ErlangOTPPkg),
-		string(syftPkg.WordpressPluginPkg), // TODO: remove me when there is a matcher for this merged in https://github.com/anchore/grype/pull/1553
+		string(syftPkg.WordpressPluginPkg), // TODO: remove me when there is a matcher for this merged in https://github.com/stefanb/grype/pull/1553
 		string(syftPkg.LuaRocksPkg),
 		string(syftPkg.TerraformPkg),
 	)

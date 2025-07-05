@@ -3,10 +3,10 @@ package platformcpe
 import (
 	"strings"
 
-	"github.com/anchore/grype/grype/distro"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/pkg/qualifier"
 	"github.com/anchore/syft/syft/cpe"
+	"github.com/stefanb/grype/grype/distro"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/pkg/qualifier"
 )
 
 type platformCPE struct {

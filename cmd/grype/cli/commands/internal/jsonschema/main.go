@@ -15,7 +15,7 @@ import (
 	"github.com/invopop/jsonschema"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/anchore/grype/cmd/grype/cli/commands/internal/dbsearch"
+	"github.com/stefanb/grype/cmd/grype/cli/commands/internal/dbsearch"
 )
 
 func main() {

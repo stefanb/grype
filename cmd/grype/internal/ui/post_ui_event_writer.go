@@ -9,9 +9,9 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/wagoodman/go-partybus"
 
-	"github.com/anchore/grype/grype/event"
-	"github.com/anchore/grype/grype/event/parsers"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/grype/event"
+	"github.com/stefanb/grype/grype/event/parsers"
+	"github.com/stefanb/grype/internal/log"
 )
 
 type postUIEventWriter struct {

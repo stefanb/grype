@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/anchore/go-testutils"
-	"github.com/anchore/grype/grype/presenter/internal"
+	"github.com/stefanb/grype/grype/presenter/internal"
 )
 
 var update = flag.Bool("update", false, "update the *.golden files for template presenters")

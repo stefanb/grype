@@ -6,8 +6,8 @@ import (
 
 	hashiVer "github.com/hashicorp/go-version"
 
-	"github.com/anchore/grype/internal/log"
 	"github.com/anchore/syft/syft/linux"
+	"github.com/stefanb/grype/internal/log"
 )
 
 // Distro represents a Linux Distribution.

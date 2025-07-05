@@ -7,7 +7,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/anchore/grype/grype/vulnerability"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 // ------- Utilities -------

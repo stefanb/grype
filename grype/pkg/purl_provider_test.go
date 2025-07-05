@@ -7,9 +7,9 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/grype/grype/distro"
 	"github.com/anchore/syft/syft/pkg"
 	"github.com/anchore/syft/syft/source"
+	"github.com/stefanb/grype/grype/distro"
 )
 
 func Test_PurlProvider(t *testing.T) {

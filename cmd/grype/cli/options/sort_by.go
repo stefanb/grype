@@ -8,7 +8,7 @@ import (
 
 	"github.com/anchore/clio"
 	"github.com/anchore/fangs"
-	"github.com/anchore/grype/grype/presenter/models"
+	"github.com/stefanb/grype/grype/presenter/models"
 )
 
 var _ interface {

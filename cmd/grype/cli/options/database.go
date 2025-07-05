@@ -5,8 +5,8 @@ import (
 
 	"github.com/anchore/clio"
 	"github.com/anchore/go-homedir"
-	"github.com/anchore/grype/grype/db/v6/distribution"
-	"github.com/anchore/grype/grype/db/v6/installation"
+	"github.com/stefanb/grype/grype/db/v6/distribution"
+	"github.com/stefanb/grype/grype/db/v6/installation"
 )
 
 type Database struct {

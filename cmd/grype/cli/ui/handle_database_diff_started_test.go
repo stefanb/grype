@@ -11,8 +11,8 @@ import (
 	"github.com/wagoodman/go-progress"
 
 	"github.com/anchore/bubbly/bubbles/taskprogress"
-	"github.com/anchore/grype/grype/event"
-	"github.com/anchore/grype/grype/event/monitor"
+	"github.com/stefanb/grype/grype/event"
+	"github.com/stefanb/grype/grype/event/monitor"
 )
 
 func TestHandler_handleDatabaseDiffStarted(t *testing.T) {

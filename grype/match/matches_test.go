@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/version"
-	"github.com/anchore/grype/grype/vulnerability"
 	"github.com/anchore/syft/syft/file"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/version"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 func TestMatchesSortMixedDimensions(t *testing.T) {

@@ -116,7 +116,7 @@ func TestCmd(t *testing.T) {
 			},
 		},
 		{
-			// from: https://github.com/anchore/grype/issues/2412 we need to ensure that explicit ignores in code don't break
+			// from: https://github.com/stefanb/grype/issues/2412 we need to ensure that explicit ignores in code don't break
 			name: "explicit ignores wired up",
 			args: []string{getFixtureImage(t, "image-java-subprocess")},
 			assertions: []traitAssertion{

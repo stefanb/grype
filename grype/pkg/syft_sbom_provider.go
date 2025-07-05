@@ -11,12 +11,12 @@ import (
 	"github.com/gabriel-vasile/mimetype"
 
 	"github.com/anchore/go-homedir"
-	"github.com/anchore/grype/grype/distro"
-	"github.com/anchore/grype/internal"
-	"github.com/anchore/grype/internal/log"
 	"github.com/anchore/syft/syft/format"
 	"github.com/anchore/syft/syft/format/syftjson"
 	"github.com/anchore/syft/syft/sbom"
+	"github.com/stefanb/grype/grype/distro"
+	"github.com/stefanb/grype/internal"
+	"github.com/stefanb/grype/internal/log"
 )
 
 type SBOMFileMetadata struct {

@@ -7,12 +7,6 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/grype/grype/distro"
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/presenter/models"
-	"github.com/anchore/grype/grype/vex"
-	"github.com/anchore/grype/grype/vulnerability"
 	"github.com/anchore/stereoscope/pkg/image"
 	"github.com/anchore/syft/syft/cpe"
 	"github.com/anchore/syft/syft/file"
@@ -22,6 +16,12 @@ import (
 	"github.com/anchore/syft/syft/source/directorysource"
 	"github.com/anchore/syft/syft/source/filesource"
 	"github.com/anchore/syft/syft/source/stereoscopesource"
+	"github.com/stefanb/grype/grype/distro"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/presenter/models"
+	"github.com/stefanb/grype/grype/vex"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 const (

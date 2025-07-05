@@ -3,9 +3,9 @@ package v6
 import (
 	"fmt"
 
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/internal/cvss"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/internal/cvss"
+	"github.com/stefanb/grype/internal/log"
 )
 
 func extractSeverities(vuln *VulnerabilityHandle) (vulnerability.Severity, []vulnerability.Cvss, error) {

@@ -5,8 +5,8 @@ import (
 
 	"github.com/bmatcuk/doublestar/v2"
 
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/internal/log"
 )
 
 // IgnoreFilter implementations are used to filter matches, returning all applicable IgnoreRule(s) that applied,

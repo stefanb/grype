@@ -10,7 +10,7 @@ import (
 	gocvss31 "github.com/pandatix/go-cvss/31"
 	gocvss40 "github.com/pandatix/go-cvss/40"
 
-	"github.com/anchore/grype/grype/vulnerability"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 func ParseMetricsFromVector(vector string) (*vulnerability.CvssMetrics, error) {

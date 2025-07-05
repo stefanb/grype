@@ -3,12 +3,12 @@ package internal
 import (
 	"fmt"
 
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/search"
-	"github.com/anchore/grype/grype/version"
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/search"
+	"github.com/stefanb/grype/grype/version"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/internal/log"
 )
 
 func MatchPackageByLanguage(store vulnerability.Provider, p pkg.Package, matcherType match.MatcherType) ([]match.Match, []match.IgnoreFilter, error) {

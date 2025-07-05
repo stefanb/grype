@@ -12,10 +12,10 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/grype/cmd/grype/cli/options"
-	db "github.com/anchore/grype/grype/db/v6"
-	"github.com/anchore/grype/grype/db/v6/distribution"
-	"github.com/anchore/grype/internal/schemaver"
+	"github.com/stefanb/grype/cmd/grype/cli/options"
+	db "github.com/stefanb/grype/grype/db/v6"
+	"github.com/stefanb/grype/grype/db/v6/distribution"
+	"github.com/stefanb/grype/internal/schemaver"
 )
 
 func Test_ListingUserAgent(t *testing.T) {

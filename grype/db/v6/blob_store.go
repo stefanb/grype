@@ -8,7 +8,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/internal/log"
 )
 
 type blobable interface {

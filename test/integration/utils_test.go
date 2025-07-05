@@ -15,10 +15,10 @@ import (
 	"github.com/scylladb/go-set/strset"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/grype/grype/match"
 	"github.com/anchore/syft/syft"
 	"github.com/anchore/syft/syft/sbom"
 	"github.com/anchore/syft/syft/source"
+	"github.com/stefanb/grype/grype/match"
 )
 
 const cacheDirRelativePath string = "./test-fixtures/cache"

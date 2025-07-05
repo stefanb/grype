@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/anchore/go-testutils"
-	"github.com/anchore/grype/grype/presenter/internal"
-	"github.com/anchore/grype/grype/presenter/models"
 	"github.com/anchore/syft/syft/file"
 	"github.com/anchore/syft/syft/source"
 	"github.com/anchore/syft/syft/source/directorysource"
+	"github.com/stefanb/grype/grype/presenter/internal"
+	"github.com/stefanb/grype/grype/presenter/models"
 )
 
 var updateSnapshot = flag.Bool("update", false, "update .golden files for sarif presenters")

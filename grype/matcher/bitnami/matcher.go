@@ -1,11 +1,11 @@
 package bitnami
 
 import (
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/matcher/internal"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/vulnerability"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/matcher/internal"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 type Matcher struct{}

@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/grype/internal/stringutil"
 	"github.com/anchore/syft/syft/linux"
 	"github.com/anchore/syft/syft/source"
 	"github.com/anchore/syft/syft/source/directorysource"
+	"github.com/stefanb/grype/internal/stringutil"
 )
 
 func Test_NewDistroFromRelease(t *testing.T) {

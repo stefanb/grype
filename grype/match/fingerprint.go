@@ -5,7 +5,7 @@ import (
 
 	"github.com/gohugoio/hashstructure"
 
-	"github.com/anchore/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/pkg"
 )
 
 type Fingerprint struct {

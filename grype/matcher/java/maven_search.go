@@ -11,8 +11,8 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/anchore/grype/grype/pkg"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/pkg"
 )
 
 // MavenSearcher is the interface that wraps the GetMavenPackageBySha method.

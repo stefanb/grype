@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/anchore/grype/internal/stringutil"
+	"github.com/stefanb/grype/internal/stringutil"
 )
 
 // Operator group only matches on range operators (GT, LT, GTE, LTE, E)

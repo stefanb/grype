@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/anchore/grype/grype/distro"
+	"github.com/stefanb/grype/grype/distro"
 )
 
 // distribution provides information about a detected Linux distribution.

@@ -1,4 +1,4 @@
-module github.com/anchore/grype
+module github.com/stefanb/grype
 
 go 1.24.1
 

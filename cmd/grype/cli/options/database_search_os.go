@@ -7,7 +7,7 @@ import (
 	"unicode"
 
 	"github.com/anchore/clio"
-	v6 "github.com/anchore/grype/grype/db/v6"
+	v6 "github.com/stefanb/grype/grype/db/v6"
 )
 
 type DBSearchOSs struct {

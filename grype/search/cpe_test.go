@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/grype/grype/vulnerability"
 	"github.com/anchore/syft/syft/cpe"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 func Test_ByCPE(t *testing.T) {

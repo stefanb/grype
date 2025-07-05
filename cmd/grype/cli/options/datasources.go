@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/grype/grype/matcher/java"
+	"github.com/stefanb/grype/grype/matcher/java"
 )
 
 const (

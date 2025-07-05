@@ -10,8 +10,8 @@ import (
 	"github.com/OneOfOne/xxhash"
 	"gorm.io/gorm"
 
-	"github.com/anchore/grype/internal/log"
-	"github.com/anchore/grype/internal/schemaver"
+	"github.com/stefanb/grype/internal/log"
+	"github.com/stefanb/grype/internal/schemaver"
 )
 
 func Models() []any {

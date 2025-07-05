@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	hashiVer "github.com/anchore/go-version"
-	"github.com/anchore/grype/internal"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/internal"
+	"github.com/stefanb/grype/internal/log"
 )
 
 var _ interface {

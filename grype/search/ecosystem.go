@@ -3,10 +3,10 @@ package search
 import (
 	"fmt"
 
-	"github.com/anchore/grype/grype/db/v5/namespace"
-	"github.com/anchore/grype/grype/db/v5/namespace/language"
-	"github.com/anchore/grype/grype/vulnerability"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/db/v5/namespace"
+	"github.com/stefanb/grype/grype/db/v5/namespace/language"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 // ByEcosystem returns criteria which will search based on the package Language and or package type

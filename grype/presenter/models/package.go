@@ -1,10 +1,10 @@
 package models
 
 import (
-	"github.com/anchore/grype/grype/internal/packagemetadata"
-	"github.com/anchore/grype/grype/pkg"
 	"github.com/anchore/syft/syft/file"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/internal/packagemetadata"
+	"github.com/stefanb/grype/grype/pkg"
 )
 
 // Package is meant to be only the fields that are needed when displaying a single pkg.Package object for the JSON presenter.

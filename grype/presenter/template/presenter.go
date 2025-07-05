@@ -11,7 +11,7 @@ import (
 
 	"github.com/anchore/clio"
 	"github.com/anchore/go-homedir"
-	"github.com/anchore/grype/grype/presenter/models"
+	"github.com/stefanb/grype/grype/presenter/models"
 )
 
 // Presenter is an implementation of presenter.Presenter that formats output according to a user-provided Go text template.

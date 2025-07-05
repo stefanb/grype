@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	v5 "github.com/anchore/grype/grype/db/v5"
+	v5 "github.com/stefanb/grype/grype/db/v5"
 )
 
 func Test_GetAllVulnerabilities(t *testing.T) {

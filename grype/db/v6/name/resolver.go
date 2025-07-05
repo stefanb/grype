@@ -1,8 +1,8 @@
 package name
 
 import (
-	grypePkg "github.com/anchore/grype/grype/pkg"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	grypePkg "github.com/stefanb/grype/grype/pkg"
 )
 
 type Resolver interface {

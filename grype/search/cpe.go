@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anchore/grype/grype/vulnerability"
 	"github.com/anchore/syft/syft/cpe"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 var _ interface {

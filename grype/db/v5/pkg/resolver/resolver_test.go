@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/grype/grype/db/v5/pkg/resolver/java"
-	"github.com/anchore/grype/grype/db/v5/pkg/resolver/python"
-	"github.com/anchore/grype/grype/db/v5/pkg/resolver/stock"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/db/v5/pkg/resolver/java"
+	"github.com/stefanb/grype/grype/db/v5/pkg/resolver/python"
+	"github.com/stefanb/grype/grype/db/v5/pkg/resolver/stock"
 )
 
 func TestFromLanguage(t *testing.T) {

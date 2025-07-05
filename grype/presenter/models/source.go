@@ -3,8 +3,8 @@ package models
 import (
 	"fmt"
 
-	"github.com/anchore/grype/grype/pkg"
 	syftSource "github.com/anchore/syft/syft/source"
+	"github.com/stefanb/grype/grype/pkg"
 )
 
 type source struct {

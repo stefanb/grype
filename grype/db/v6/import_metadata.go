@@ -11,8 +11,8 @@ import (
 	"github.com/OneOfOne/xxhash"
 	"github.com/spf13/afero"
 
-	"github.com/anchore/grype/internal/file"
-	"github.com/anchore/grype/internal/schemaver"
+	"github.com/stefanb/grype/internal/file"
+	"github.com/stefanb/grype/internal/schemaver"
 )
 
 const ImportMetadataFileName = "import.json"

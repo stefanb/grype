@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/anchore/grype/internal/log"
-	"github.com/anchore/grype/internal/schemaver"
+	"github.com/stefanb/grype/internal/log"
+	"github.com/stefanb/grype/internal/schemaver"
 )
 
 var ErrDBDoesNotExist = errors.New("database does not exist")

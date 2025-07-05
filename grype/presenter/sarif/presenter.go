@@ -12,11 +12,11 @@ import (
 	"github.com/owenrumney/go-sarif/sarif"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/presenter/models"
-	"github.com/anchore/grype/grype/vulnerability"
 	"github.com/anchore/syft/syft/file"
 	"github.com/anchore/syft/syft/source"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/presenter/models"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 // Presenter holds the data for generating a report and implements the presenter.Presenter interface
@@ -63,7 +63,7 @@ func (p Presenter) toSarifReport() (*sarif.Report, error) {
 			Driver: &sarif.ToolComponent{
 				Name:           p.id.Name,
 				Version:        sp(v),
-				InformationURI: sp("https://github.com/anchore/grype"),
+				InformationURI: sp("https://github.com/stefanb/grype"),
 				Rules:          p.sarifRules(),
 			},
 		},
@@ -99,7 +99,7 @@ func (p Presenter) sarifRules() (out []*sarif.ReportingDescriptor) {
 			descriptor := sarif.ReportingDescriptor{
 				ID:      ruleID,
 				Name:    sp(ruleName(m)),
-				HelpURI: sp("https://github.com/anchore/grype"),
+				HelpURI: sp("https://github.com/stefanb/grype"),
 				// Title of the SARIF report
 				ShortDescription: &sarif.MultiformatMessageString{
 					Text: sp(shortDescription(m)),

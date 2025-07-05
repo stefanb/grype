@@ -3,10 +3,10 @@ package name
 import (
 	"fmt"
 
-	grypePkg "github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/internal/log"
-	"github.com/anchore/grype/internal/stringutil"
 	"github.com/anchore/packageurl-go"
+	grypePkg "github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/internal/log"
+	"github.com/stefanb/grype/internal/stringutil"
 )
 
 type JavaResolver struct {

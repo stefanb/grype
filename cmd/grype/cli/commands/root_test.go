@@ -9,14 +9,14 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/grype/cmd/grype/cli/options"
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/vex"
 	"github.com/anchore/stereoscope/pkg/image"
 	"github.com/anchore/syft/syft"
 	"github.com/anchore/syft/syft/cataloging"
 	"github.com/anchore/syft/syft/pkg/cataloger/binary"
+	"github.com/stefanb/grype/cmd/grype/cli/options"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/vex"
 )
 
 func Test_applyDistroHint(t *testing.T) {

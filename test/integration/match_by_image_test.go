@@ -10,29 +10,29 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/grype/grype"
-	"github.com/anchore/grype/grype/distro"
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/matcher"
-	"github.com/anchore/grype/grype/matcher/dotnet"
-	"github.com/anchore/grype/grype/matcher/golang"
-	"github.com/anchore/grype/grype/matcher/java"
-	"github.com/anchore/grype/grype/matcher/javascript"
-	"github.com/anchore/grype/grype/matcher/python"
-	"github.com/anchore/grype/grype/matcher/ruby"
-	"github.com/anchore/grype/grype/matcher/rust"
-	"github.com/anchore/grype/grype/matcher/stock"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/search"
-	"github.com/anchore/grype/grype/vex"
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/internal/stringutil"
 	"github.com/anchore/stereoscope/pkg/imagetest"
 	"github.com/anchore/syft/syft"
 	"github.com/anchore/syft/syft/cataloging/pkgcataloging"
 	"github.com/anchore/syft/syft/cpe"
 	syftPkg "github.com/anchore/syft/syft/pkg"
 	"github.com/anchore/syft/syft/source"
+	"github.com/stefanb/grype/grype"
+	"github.com/stefanb/grype/grype/distro"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/matcher"
+	"github.com/stefanb/grype/grype/matcher/dotnet"
+	"github.com/stefanb/grype/grype/matcher/golang"
+	"github.com/stefanb/grype/grype/matcher/java"
+	"github.com/stefanb/grype/grype/matcher/javascript"
+	"github.com/stefanb/grype/grype/matcher/python"
+	"github.com/stefanb/grype/grype/matcher/ruby"
+	"github.com/stefanb/grype/grype/matcher/rust"
+	"github.com/stefanb/grype/grype/matcher/stock"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/search"
+	"github.com/stefanb/grype/grype/vex"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/internal/stringutil"
 )
 
 func addAlpineMatches(t *testing.T, theSource source.Source, catalog *syftPkg.Collection, provider vulnerability.Provider, theResult *match.Matches) {
@@ -709,7 +709,7 @@ func TestMatchByImage(t *testing.T) {
 				return expectedMatches
 			},
 		},
-		// TODO: add this back in when #744 is fully implemented (see https://github.com/anchore/grype/issues/744#issuecomment-2448163737)
+		// TODO: add this back in when #744 is fully implemented (see https://github.com/stefanb/grype/issues/744#issuecomment-2448163737)
 		//{
 		//	name: "image-portage-match-coverage",
 		//	expectedFn: func(theSource source.Source, catalog *syftPkg.Collection, provider vulnerability.Provider) match.Matches {

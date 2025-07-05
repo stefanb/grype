@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anchore/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/pkg"
 )
 
 var _ Comparator = (*Version)(nil)

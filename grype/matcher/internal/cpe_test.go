@@ -9,13 +9,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/version"
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/grype/vulnerability/mock"
 	"github.com/anchore/syft/syft/cpe"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/version"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/grype/vulnerability/mock"
 )
 
 func newCPETestStore() vulnerability.Provider {

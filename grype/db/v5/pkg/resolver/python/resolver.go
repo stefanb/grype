@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	grypePkg "github.com/anchore/grype/grype/pkg"
+	grypePkg "github.com/stefanb/grype/grype/pkg"
 )
 
 type Resolver struct {

@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anchore/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/pkg"
 )
 
 func TestAllNames(t *testing.T) {

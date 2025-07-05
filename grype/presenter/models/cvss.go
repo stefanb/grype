@@ -1,6 +1,6 @@
 package models
 
-import "github.com/anchore/grype/grype/vulnerability"
+import "github.com/stefanb/grype/grype/vulnerability"
 
 type Cvss struct {
 	Source         string      `json:"source,omitempty"`

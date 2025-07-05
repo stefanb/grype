@@ -17,15 +17,15 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/anchore/archiver/v3"
-	"github.com/anchore/grype/grype/db/v5/namespace"
-	distroNs "github.com/anchore/grype/grype/db/v5/namespace/distro"
-	"github.com/anchore/grype/grype/db/v5/namespace/language"
-	v6 "github.com/anchore/grype/grype/db/v6"
-	"github.com/anchore/grype/grype/db/v6/distribution"
-	"github.com/anchore/grype/grype/version"
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/internal/file"
-	"github.com/anchore/grype/internal/schemaver"
+	"github.com/stefanb/grype/grype/db/v5/namespace"
+	distroNs "github.com/stefanb/grype/grype/db/v5/namespace/distro"
+	"github.com/stefanb/grype/grype/db/v5/namespace/language"
+	v6 "github.com/stefanb/grype/grype/db/v6"
+	"github.com/stefanb/grype/grype/db/v6/distribution"
+	"github.com/stefanb/grype/grype/version"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/internal/file"
+	"github.com/stefanb/grype/internal/schemaver"
 )
 
 type ServerBuilder struct {

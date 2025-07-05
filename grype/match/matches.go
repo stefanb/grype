@@ -5,8 +5,8 @@ import (
 
 	"github.com/scylladb/go-set/strset"
 
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/internal/log"
 )
 
 type Matches struct {

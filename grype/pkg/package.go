@@ -6,15 +6,15 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/anchore/grype/grype/distro"
-	"github.com/anchore/grype/internal/log"
-	"github.com/anchore/grype/internal/stringutil"
 	"github.com/anchore/packageurl-go"
 	"github.com/anchore/syft/syft/artifact"
 	"github.com/anchore/syft/syft/cpe"
 	"github.com/anchore/syft/syft/file"
 	syftPkg "github.com/anchore/syft/syft/pkg"
 	cpes "github.com/anchore/syft/syft/pkg/cataloger/common/cpe"
+	"github.com/stefanb/grype/grype/distro"
+	"github.com/stefanb/grype/internal/log"
+	"github.com/stefanb/grype/internal/stringutil"
 )
 
 // the source-rpm field has something akin to "util-linux-ng-2.17.2-12.28.el6_9.2.src.rpm"
@@ -165,7 +165,7 @@ func excludePackage(comprehensiveDistroFeed bool, p syftPkg.Package, parent syft
 // is comprehensive enough that we can drop packages owned by distro packages
 // before matching.
 func distroFeedIsComprehensive(dst *distro.Distro) bool {
-	// TODO: this mechanism should be re-examined once https://github.com/anchore/grype/issues/1426
+	// TODO: this mechanism should be re-examined once https://github.com/stefanb/grype/issues/1426
 	// is addressed
 	if dst == nil {
 		return false

@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/internal/log"
 )
 
 type SortStrategy string

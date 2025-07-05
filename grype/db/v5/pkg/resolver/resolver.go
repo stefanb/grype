@@ -1,11 +1,11 @@
 package resolver
 
 import (
-	"github.com/anchore/grype/grype/db/v5/pkg/resolver/java"
-	"github.com/anchore/grype/grype/db/v5/pkg/resolver/python"
-	"github.com/anchore/grype/grype/db/v5/pkg/resolver/stock"
-	grypePkg "github.com/anchore/grype/grype/pkg"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/db/v5/pkg/resolver/java"
+	"github.com/stefanb/grype/grype/db/v5/pkg/resolver/python"
+	"github.com/stefanb/grype/grype/db/v5/pkg/resolver/stock"
+	grypePkg "github.com/stefanb/grype/grype/pkg"
 )
 
 type Resolver interface {

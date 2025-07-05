@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anchore/grype/grype/db/v5/pkg/resolver"
-	"github.com/anchore/grype/grype/db/v5/pkg/resolver/stock"
+	"github.com/stefanb/grype/grype/db/v5/pkg/resolver"
+	"github.com/stefanb/grype/grype/db/v5/pkg/resolver/stock"
 )
 
 const ID = "cpe"

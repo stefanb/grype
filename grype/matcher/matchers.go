@@ -1,21 +1,21 @@
 package matcher
 
 import (
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/matcher/apk"
-	"github.com/anchore/grype/grype/matcher/bitnami"
-	"github.com/anchore/grype/grype/matcher/dotnet"
-	"github.com/anchore/grype/grype/matcher/dpkg"
-	"github.com/anchore/grype/grype/matcher/golang"
-	"github.com/anchore/grype/grype/matcher/java"
-	"github.com/anchore/grype/grype/matcher/javascript"
-	"github.com/anchore/grype/grype/matcher/msrc"
-	"github.com/anchore/grype/grype/matcher/portage"
-	"github.com/anchore/grype/grype/matcher/python"
-	"github.com/anchore/grype/grype/matcher/rpm"
-	"github.com/anchore/grype/grype/matcher/ruby"
-	"github.com/anchore/grype/grype/matcher/rust"
-	"github.com/anchore/grype/grype/matcher/stock"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/matcher/apk"
+	"github.com/stefanb/grype/grype/matcher/bitnami"
+	"github.com/stefanb/grype/grype/matcher/dotnet"
+	"github.com/stefanb/grype/grype/matcher/dpkg"
+	"github.com/stefanb/grype/grype/matcher/golang"
+	"github.com/stefanb/grype/grype/matcher/java"
+	"github.com/stefanb/grype/grype/matcher/javascript"
+	"github.com/stefanb/grype/grype/matcher/msrc"
+	"github.com/stefanb/grype/grype/matcher/portage"
+	"github.com/stefanb/grype/grype/matcher/python"
+	"github.com/stefanb/grype/grype/matcher/rpm"
+	"github.com/stefanb/grype/grype/matcher/ruby"
+	"github.com/stefanb/grype/grype/matcher/rust"
+	"github.com/stefanb/grype/grype/matcher/stock"
 )
 
 // Config contains values used by individual matcher structs for advanced configuration

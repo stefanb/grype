@@ -3,7 +3,7 @@ package v5
 import (
 	"fmt"
 
-	"github.com/anchore/grype/grype/match"
+	"github.com/stefanb/grype/grype/match"
 )
 
 var _ match.ExclusionProvider = (*MatchExclusionProvider)(nil)

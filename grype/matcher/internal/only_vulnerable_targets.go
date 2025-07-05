@@ -7,12 +7,12 @@ import (
 	"github.com/facebookincubator/nvdtools/wfn"
 	"github.com/scylladb/go-set/strset"
 
-	"github.com/anchore/grype/grype/internal"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/search"
-	"github.com/anchore/grype/grype/vulnerability"
 	"github.com/anchore/syft/syft/cpe"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/internal"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/search"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 // onlyVulnerableTargets returns a criteria object that tests vulnerability qualifiers against the package vulnerability rules.

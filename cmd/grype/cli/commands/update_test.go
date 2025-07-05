@@ -7,7 +7,7 @@ import (
 
 	"github.com/anchore/clio"
 	hashiVersion "github.com/anchore/go-version"
-	"github.com/anchore/grype/cmd/grype/internal"
+	"github.com/stefanb/grype/cmd/grype/internal"
 )
 
 func TestIsUpdateAvailable(t *testing.T) {

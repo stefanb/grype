@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/grype/internal/redact"
+	"github.com/stefanb/grype/internal/redact"
 )
 
 type secret string

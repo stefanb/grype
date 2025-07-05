@@ -9,11 +9,11 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/grype/cmd/grype/cli/options"
-	db "github.com/anchore/grype/grype/db/v6"
-	"github.com/anchore/grype/grype/db/v6/distribution"
-	"github.com/anchore/grype/grype/grypeerr"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/cmd/grype/cli/options"
+	db "github.com/stefanb/grype/grype/db/v6"
+	"github.com/stefanb/grype/grype/db/v6/distribution"
+	"github.com/stefanb/grype/grype/grypeerr"
+	"github.com/stefanb/grype/internal/log"
 )
 
 type dbCheckOptions struct {

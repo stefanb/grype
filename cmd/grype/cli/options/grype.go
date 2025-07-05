@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/anchore/clio"
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/internal/format"
 	"github.com/anchore/syft/syft/source"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/internal/format"
 )
 
 type Grype struct {
@@ -171,7 +171,7 @@ valid values are: registry, docker, podman`)
   - './out/**/*.json'
 same as --exclude`)
 	descriptions.Add(&o.File, `if using template output, you must provide a path to a Go template file
-see https://github.com/anchore/grype#using-templates for more information on template output
+see https://github.com/stefanb/grype#using-templates for more information on template output
 the default path to the template file is the current working directory
 output-template-file: .grype/html.tmpl
 

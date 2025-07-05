@@ -8,9 +8,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/presenter/models"
 	"github.com/anchore/syft/syft/file"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/presenter/models"
 )
 
 //go:embed explain_cve.tmpl

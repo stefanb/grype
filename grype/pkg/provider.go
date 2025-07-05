@@ -6,10 +6,10 @@ import (
 
 	"github.com/bmatcuk/doublestar/v2"
 
-	"github.com/anchore/grype/grype/distro"
-	"github.com/anchore/grype/internal/log"
 	"github.com/anchore/syft/syft/file"
 	"github.com/anchore/syft/syft/sbom"
+	"github.com/stefanb/grype/grype/distro"
+	"github.com/stefanb/grype/internal/log"
 )
 
 var errDoesNotProvide = fmt.Errorf("cannot provide packages from the given source")

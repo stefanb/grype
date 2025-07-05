@@ -8,9 +8,9 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/anchore/grype/grype/db/internal/gormadapter"
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/grype/db/internal/gormadapter"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/internal/log"
 )
 
 const (

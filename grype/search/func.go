@@ -1,6 +1,6 @@
 package search
 
-import "github.com/anchore/grype/grype/vulnerability"
+import "github.com/stefanb/grype/grype/vulnerability"
 
 // ByFunc returns criteria which will use the provided function to filter vulnerabilities
 func ByFunc(criteriaFunc func(vulnerability.Vulnerability) (bool, string, error)) vulnerability.Criteria {

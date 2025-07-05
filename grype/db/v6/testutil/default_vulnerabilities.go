@@ -1,9 +1,9 @@
 package dbtest
 
 import (
-	"github.com/anchore/grype/grype/version"
-	"github.com/anchore/grype/grype/vulnerability"
 	"github.com/anchore/syft/syft/cpe"
+	"github.com/stefanb/grype/grype/version"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 func DefaultVulnerabilities() []vulnerability.Vulnerability {

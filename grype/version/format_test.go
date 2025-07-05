@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/anchore/grype/grype/pkg"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/pkg"
 )
 
 func TestParseFormat(t *testing.T) {

@@ -18,12 +18,12 @@ import (
 
 	"github.com/anchore/archiver/v3"
 	"github.com/anchore/clio"
-	v5 "github.com/anchore/grype/grype/db/v5"
-	"github.com/anchore/grype/grype/db/v5/store"
-	"github.com/anchore/grype/grype/event"
-	"github.com/anchore/grype/internal/bus"
-	"github.com/anchore/grype/internal/file"
-	"github.com/anchore/grype/internal/log"
+	v5 "github.com/stefanb/grype/grype/db/v5"
+	"github.com/stefanb/grype/grype/db/v5/store"
+	"github.com/stefanb/grype/grype/event"
+	"github.com/stefanb/grype/internal/bus"
+	"github.com/stefanb/grype/internal/file"
+	"github.com/stefanb/grype/internal/log"
 )
 
 const (

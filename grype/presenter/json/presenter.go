@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/anchore/grype/grype/presenter/models"
+	"github.com/stefanb/grype/grype/presenter/models"
 )
 
 type Presenter struct {

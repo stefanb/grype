@@ -13,9 +13,9 @@ import (
 	"github.com/anchore/bubbly/bubbles/frame"
 	"github.com/anchore/clio"
 	"github.com/anchore/go-logger"
-	"github.com/anchore/grype/grype/event"
-	"github.com/anchore/grype/internal/bus"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/grype/event"
+	"github.com/stefanb/grype/internal/bus"
+	"github.com/stefanb/grype/internal/log"
 )
 
 var _ interface {

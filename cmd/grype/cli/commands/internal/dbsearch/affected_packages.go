@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	v6 "github.com/anchore/grype/grype/db/v6"
-	"github.com/anchore/grype/internal/log"
 	"github.com/anchore/syft/syft/cpe"
+	v6 "github.com/stefanb/grype/grype/db/v6"
+	"github.com/stefanb/grype/internal/log"
 )
 
 var ErrNoSearchCriteria = errors.New("must provide at least one of vulnerability or package to search for")

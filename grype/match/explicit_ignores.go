@@ -1,7 +1,7 @@
 package match
 
 import (
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/internal/log"
 )
 
 var explicitIgnoreRules []IgnoreRule
@@ -14,14 +14,14 @@ func init() {
 	}
 
 	var explicitIgnores = []ignoreValues{
-		// Based on https://github.com/anchore/grype/issues/552, which includes a reference to the
+		// Based on https://github.com/stefanb/grype/issues/552, which includes a reference to the
 		// https://github.com/mergebase/log4j-samples collection, we want to filter these explicitly:
 		{
 			typ:             "java-archive",
 			vulnerabilities: []string{"CVE-2021-44228", "CVE-2021-45046", "GHSA-jfh8-c2jp-5v3q", "GHSA-7rjr-3q55-vv33", "CVE-2020-9493", "CVE-2022-23307", "CVE-2023-26464"},
 			packages:        []string{"log4j-api", "log4j-slf4j-impl", "log4j-to-slf4j", "log4j-1.2-api", "log4j-detector", "log4j-over-slf4j", "slf4j-log4j12"},
 		},
-		// Based on https://github.com/anchore/grype/issues/558:
+		// Based on https://github.com/stefanb/grype/issues/558:
 		{
 			typ:             "go-module",
 			vulnerabilities: []string{"CVE-2015-5237", "CVE-2021-22570"},
@@ -51,7 +51,7 @@ func init() {
 			vulnerabilities: []string{"CVE-2017-14727"},
 			packages:        []string{"logger"},
 		},
-		// https://github.com/anchore/grype/issues/2412#issuecomment-2663656195
+		// https://github.com/stefanb/grype/issues/2412#issuecomment-2663656195
 		{
 			typ:             "deb",
 			vulnerabilities: []string{"CVE-2023-45853"},

@@ -1,9 +1,9 @@
 package portage
 
 import (
-	"github.com/anchore/grype/grype/version"
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/grype/vulnerability/mock"
+	"github.com/stefanb/grype/grype/version"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/grype/vulnerability/mock"
 )
 
 func newMockProvider() vulnerability.Provider {

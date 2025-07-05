@@ -6,10 +6,10 @@ import (
 	"github.com/scylladb/go-set/strset"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/vulnerability"
 	"github.com/anchore/syft/syft/cpe"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 func TestIsVulnerableTarget(t *testing.T) {

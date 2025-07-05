@@ -3,8 +3,8 @@ package cpe
 import (
 	"github.com/facebookincubator/nvdtools/wfn"
 
-	"github.com/anchore/grype/internal/log"
 	"github.com/anchore/syft/syft/cpe"
+	"github.com/stefanb/grype/internal/log"
 )
 
 func NewSlice(cpeStrs ...string) ([]cpe.CPE, error) {

@@ -1,8 +1,8 @@
 package pkg
 
 import (
-	"github.com/anchore/grype/grype/distro"
 	"github.com/anchore/syft/syft/source"
+	"github.com/stefanb/grype/grype/distro"
 )
 
 type Context struct {

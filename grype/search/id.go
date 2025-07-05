@@ -3,7 +3,7 @@ package search
 import (
 	"fmt"
 
-	"github.com/anchore/grype/grype/vulnerability"
+	"github.com/stefanb/grype/grype/vulnerability"
 )
 
 // ByID returns criteria to search by vulnerability ID, such as CVE-2024-9143

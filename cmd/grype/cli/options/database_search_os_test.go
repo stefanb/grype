@@ -6,7 +6,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	v6 "github.com/anchore/grype/grype/db/v6"
+	v6 "github.com/stefanb/grype/grype/db/v6"
 )
 
 func TestDBSearchOSsPostLoad(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 
 	"github.com/go-viper/mapstructure/v2"
 
-	"github.com/anchore/grype/grype/db/v5/pkg/qualifier/platformcpe"
-	"github.com/anchore/grype/grype/db/v5/pkg/qualifier/rpmmodularity"
-	"github.com/anchore/grype/internal/log"
+	"github.com/stefanb/grype/grype/db/v5/pkg/qualifier/platformcpe"
+	"github.com/stefanb/grype/grype/db/v5/pkg/qualifier/rpmmodularity"
+	"github.com/stefanb/grype/internal/log"
 )
 
 func FromJSON(data []byte) ([]Qualifier, error) {

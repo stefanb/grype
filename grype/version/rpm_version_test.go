@@ -43,7 +43,7 @@ func TestRpmVersion_Constraint(t *testing.T) {
 		{version: "0:4.19.1-1.el7_5", constraint: "< 2:4.19.1-1.el7_5", satisfied: true},
 		{version: "11:4.19.0-1.el7_5", constraint: "< 12:4.19.0-1.el7", satisfied: true},
 		{version: "13:4.19.0-1.el7_5", constraint: "< 12:4.19.0-1.el7", satisfied: false},
-		// regression: https://github.com/anchore/grype/issues/316
+		// regression: https://github.com/stefanb/grype/issues/316
 		{version: "1.5.4-2.el7_9", constraint: "< 0:1.5.4-2.el7_9", satisfied: false},
 		{version: "1.5.4-2.el7", constraint: "< 0:1.5.4-2.el7_9", satisfied: true},
 		// Non-standard epoch handling. In comparisons with epoch on only one side, they are both ignored
@@ -62,7 +62,7 @@ func TestRpmVersion_Constraint(t *testing.T) {
 		{version: "4.19.0-1.el7_5", constraint: "<= 12:4.19.0-1.el7", satisfied: false},
 		{version: "3:4.19.0-1.el7_5", constraint: "< 4.21.0-1.el7", satisfied: true},
 		{version: "4:1.2.3-3-el7_5", constraint: "< 1.2.3-el7_5~snapshot1", satisfied: false},
-		// regression https://github.com/anchore/grype/issues/398
+		// regression https://github.com/stefanb/grype/issues/398
 		{version: "8.3.1-5.el8.4", constraint: "< 0:8.3.1-5.el8.5", satisfied: true},
 		{version: "8.3.1-5.el8.40", constraint: "< 0:8.3.1-5.el8.5", satisfied: false},
 		{version: "8.3.1-5.el8", constraint: "< 0:8.3.1-5.el8.0.0", satisfied: false},

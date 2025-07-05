@@ -1,15 +1,15 @@
 package grype
 
 import (
-	"github.com/anchore/grype/grype/distro"
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/matcher"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/internal/log"
 	"github.com/anchore/stereoscope/pkg/image"
 	"github.com/anchore/syft/syft"
 	"github.com/anchore/syft/syft/source"
+	"github.com/stefanb/grype/grype/distro"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/matcher"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/internal/log"
 )
 
 // TODO: deprecated, will remove before v1.0.0

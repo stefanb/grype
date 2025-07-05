@@ -9,10 +9,10 @@ import (
 	"github.com/google/go-containerregistry/pkg/name"
 	openvex "github.com/openvex/go-vex/pkg/vex"
 
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/pkg"
 	"github.com/anchore/packageurl-go"
 	"github.com/anchore/syft/syft/source"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/pkg"
 )
 
 type Processor struct{}

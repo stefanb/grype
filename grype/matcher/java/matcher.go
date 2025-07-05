@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/matcher/internal"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/internal/log"
 	syftPkg "github.com/anchore/syft/syft/pkg"
+	"github.com/stefanb/grype/grype/match"
+	"github.com/stefanb/grype/grype/matcher/internal"
+	"github.com/stefanb/grype/grype/pkg"
+	"github.com/stefanb/grype/grype/vulnerability"
+	"github.com/stefanb/grype/internal/log"
 )
 
 const (
